@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Lemon Ballistics",
+	"Description": "Non-actor pooled projectile simulation. A tickable world subsystem flies, sweeps and renders hundreds of lightweight bullets through recycled Niagara components, applying a caller-supplied GAS effect on authoritative hits. No actor, replication channel or tick function per bullet.",
+	"Category": "Gameplay",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LemonBallistics",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}
